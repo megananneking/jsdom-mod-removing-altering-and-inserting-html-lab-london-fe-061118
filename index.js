@@ -2,6 +2,6 @@
 document.querySelector('main').remove();
 
 /* Create your new element here and assign it to newHeader */
-var element = document.createElement('h1')
+const newHeader = document.createElement('h1#victory')
 document.body.appendChild(element)
 element.innerHTML = 'Megan is the champion!'
