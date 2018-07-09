@@ -3,6 +3,6 @@ document.querySelector('main').remove();
 
 /* Create your new element here and assign it to newHeader */
 const newHeader = document.createElement('h1')
-newHeader id = "victory"
+newHeader.id = "victory"
 document.body.appendChild(newHeader)
 newHeader.innerHTML = 'Megan is the champion!'
